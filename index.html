@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <link type="text/css" rel="stylesheet" 
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"
           rel="stylesheet" type="text/css">
@@ -24,7 +22,7 @@
         }
         .linediv-l {
           border-right: 1px white solid;
-         }
+        }
         .linediv-r {
           border-left: 1px white solid;
         }
@@ -89,14 +87,24 @@
         padding-bottom: 2.5%;
         text-align: justify;
       }
-          .asset {
+      .asset {
         padding: 2.5% 0%;
       }
-
-
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }
 
     </style>
   </head>
+
+
   <body>
 
     <!-- Mobile-friendly navbar adapted from example. -->
@@ -277,12 +285,19 @@
           </div>
       </div>
 
-
-      <div class="row footer">
+      <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
+      <!-- http://creativecommons.org/licenses/ -->
+      <div class="row-fluid footer">
         <div class="span12">
-          Footer
+          <p>This work is licensed under
+            the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC
+              By-SA 3.0
+            </a>, without all the cruft that would otherwise be
+            put at the bottom of the page.</p>
         </div>
       </div>
+
+
     </div>
   </body>
 </html>
