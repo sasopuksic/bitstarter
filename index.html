@@ -6,31 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
           rel="stylesheet" type="text/css">
     <style type="text/css">
 
-
       /* Large desktop */
-      @media (min-width: 980px) {
+      @media (min-width: 980px) { 
         body {
          padding-top: 60px;
         }
-        .linediv-l {
-          border-right: 1px white solid;
+       .linediv-l {
+         border-right: 1px white solid;
         }
-        .linediv-r {
-          border-left: 1px white solid;
-        }
+       .linediv-r {
+         border-left: 1px white solid;
        }
-
+      }
 
       /* Landscape phones and down */
-      @media (max-width: 480px) {
+      @media (max-width: 480px) { 
        .copy {
          padding: 2.5% 10%;
        }
@@ -41,7 +39,6 @@
          border-top: 1px white solid;
        }
       }
-
 
       /* All form factors */
 
@@ -100,11 +97,8 @@
       .footer a {
         color: #ccccff;
       }
-
     </style>
   </head>
-
-
   <body>
 
     <!-- Mobile-friendly navbar adapted from example. -->
@@ -130,7 +124,6 @@
       </div>
     </div>
 
-
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
@@ -142,25 +135,24 @@
         <div class="span12">
           <h1>Bitcoin Banking</h1>
         </div>
-      </div>
+      </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Facilitating Bitcoin adoption by providing market data and a peer-to-peer banking marketplace.
-	    Lend, borrow, hedge, or create your own fancy Bitcoin derivative.</p>
+          <p class="lead">One sentence description.</p>
         </div>
       </div>
-
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300&text=Bitcoin+Banking">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300&text=Bitcoin+Banking">
         </div>
-      
+
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
+          <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="statistics">
+            <div class="row-fluid statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
@@ -181,6 +173,7 @@
               </div>
             </div>
           </div>
+          <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
@@ -189,17 +182,23 @@
               <div class="bar bar-warning" style="width: 69%;"></div>
             </div>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+          </div>
+        </div>
         </div>
       </div>
 
@@ -209,7 +208,7 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x110&text=Hedge+Bitcoin+risks">
+          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x110&text=Hedge+Bitcoin+risks">
         </div>
         <div class="span5 copy">
           <p>
@@ -226,13 +225,13 @@
           <p>
             A peer-to-peer Bitcoin banking marketplace is where retailers accepting Bitcoins,
             Bitcoin investors, Bitcoin savers, and Bitcoin speculators meet and create a
-	    market. Open to innovation, but dedicated to fully covered participants (no margin
+	        market. Open to innovation, but dedicated to fully covered participants (no margin
             trading or promises that may not be kept, here), this marketplace will give birth
-	    to novel and robust banking products.
+	        to novel and robust banking products.
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x180&text=Create+Bitcoin+banking">
+          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x180&text=Create+Bitcoin+banking">
         </div>
       </div>
 
@@ -272,6 +271,7 @@
               </div>
             </div>
           </div>
+
       </div>
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
@@ -285,8 +285,6 @@
             put at the bottom of the page.</p>
         </div>
       </div>
-
-
     </div>
   </body>
 </html>
