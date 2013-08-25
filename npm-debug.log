@@ -1,0 +1,250 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose node symlink /usr/bin/node
+5 verbose read json /home/ubuntu/bitstarter/package.json
+6 warn package.json node-js-sample@0.0.1 No readme data.
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/ubuntu/bitstarter', [ 'express' ] ]
+9 verbose from cache /home/ubuntu/bitstarter/package.json
+10 info preinstall node-js-sample@0.0.1
+11 verbose from cache /home/ubuntu/bitstarter/package.json
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'express@2.5.x', null ]
+14 verbose cache add name=undefined spec="express@2.5.x" args=["express@2.5.x",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'express@2.5.x',
+15 verbose parsed url   path: 'express@2.5.x',
+15 verbose parsed url   href: 'express@2.5.x' }
+16 verbose cache add name="express" spec="2.5.x" args=["express","2.5.x"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '2.5.x',
+17 verbose parsed url   path: '2.5.x',
+17 verbose parsed url   href: '2.5.x' }
+18 verbose addNamed [ 'express', '2.5.x' ]
+19 verbose addNamed [ null, '>=2.5.0- <2.6.0-' ]
+20 silly lockFile 38bf5a2e-express-2-5-x express@2.5.x
+21 verbose lock express@2.5.x /home/ubuntu/.npm/38bf5a2e-express-2-5-x.lock
+22 silly addNameRange { name: 'express', range: '>=2.5.0- <2.6.0-', hasData: false }
+23 verbose url raw express
+24 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+25 verbose url resolved https://registry.npmjs.org/express
+26 info trying registry request attempt 1 at 10:14:05
+27 verbose etag "ESP1246G501UO5SVT7ECCJ9UN"
+28 http GET https://registry.npmjs.org/express
+29 http 500 https://registry.npmjs.org/express
+30 verbose bad json Internal routing error
+30 verbose bad json
+30 verbose bad json Sorry, we cannot connect to the intended server.
+30 verbose bad json
+30 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+30 verbose bad json
+30 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+31 error registry error parsing json
+32 info retry will retry, error on last attempt: SyntaxError: Unexpected token I
+32 info retry Internal routing error
+32 info retry
+32 info retry Sorry, we cannot connect to the intended server.
+32 info retry
+32 info retry We have just been notified of this problem. We will correct it as soon as possible.
+32 info retry
+32 info retry Feel free to contact us if you have any questions: support@iriscouch.com
+33 info trying registry request attempt 2 at 10:14:17
+34 verbose etag "ESP1246G501UO5SVT7ECCJ9UN"
+35 http GET https://registry.npmjs.org/express
+36 http 500 https://registry.npmjs.org/express
+37 verbose bad json Internal routing error
+37 verbose bad json
+37 verbose bad json Sorry, we cannot connect to the intended server.
+37 verbose bad json
+37 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+37 verbose bad json
+37 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+38 error registry error parsing json
+39 info retry will retry, error on last attempt: SyntaxError: Unexpected token I
+39 info retry Internal routing error
+39 info retry
+39 info retry Sorry, we cannot connect to the intended server.
+39 info retry
+39 info retry We have just been notified of this problem. We will correct it as soon as possible.
+39 info retry
+39 info retry Feel free to contact us if you have any questions: support@iriscouch.com
+40 info trying registry request attempt 3 at 10:15:17
+41 verbose etag "ESP1246G501UO5SVT7ECCJ9UN"
+42 http GET https://registry.npmjs.org/express
+43 http 500 https://registry.npmjs.org/express
+44 verbose bad json Internal routing error
+44 verbose bad json
+44 verbose bad json Sorry, we cannot connect to the intended server.
+44 verbose bad json
+44 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+44 verbose bad json
+44 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+45 error registry error parsing json
+46 silly registry.get cb [ 304, undefined ]
+47 verbose etag express from cache
+48 silly addNameRange number 2 { name: 'express', range: '>=2.5.0- <2.6.0-', hasData: true }
+49 silly addNameRange versions [ 'express',
+49 silly addNameRange   [ '0.14.0',
+49 silly addNameRange     '0.14.1',
+49 silly addNameRange     '1.0.0',
+49 silly addNameRange     '1.0.1',
+49 silly addNameRange     '1.0.2',
+49 silly addNameRange     '1.0.3',
+49 silly addNameRange     '1.0.4',
+49 silly addNameRange     '1.0.5',
+49 silly addNameRange     '1.0.6',
+49 silly addNameRange     '1.0.7',
+49 silly addNameRange     '1.0.8',
+49 silly addNameRange     '2.0.0',
+49 silly addNameRange     '2.1.0',
+49 silly addNameRange     '2.1.1',
+49 silly addNameRange     '2.2.0',
+49 silly addNameRange     '2.2.1',
+49 silly addNameRange     '2.2.2',
+49 silly addNameRange     '2.3.0',
+49 silly addNameRange     '2.3.1',
+49 silly addNameRange     '2.3.2',
+49 silly addNameRange     '2.3.3',
+49 silly addNameRange     '2.3.4',
+49 silly addNameRange     '2.3.5',
+49 silly addNameRange     '2.3.6',
+49 silly addNameRange     '2.3.7',
+49 silly addNameRange     '2.3.8',
+49 silly addNameRange     '2.3.9',
+49 silly addNameRange     '2.3.10',
+49 silly addNameRange     '2.3.11',
+49 silly addNameRange     '2.3.12',
+49 silly addNameRange     '2.4.0',
+49 silly addNameRange     '2.4.1',
+49 silly addNameRange     '2.4.2',
+49 silly addNameRange     '2.4.3',
+49 silly addNameRange     '2.4.4',
+49 silly addNameRange     '2.4.5',
+49 silly addNameRange     '2.4.6',
+49 silly addNameRange     '2.4.7',
+49 silly addNameRange     '2.5.0',
+49 silly addNameRange     '2.5.1',
+49 silly addNameRange     '2.5.2',
+49 silly addNameRange     '2.5.3',
+49 silly addNameRange     '2.5.4',
+49 silly addNameRange     '2.5.5',
+49 silly addNameRange     '2.5.6',
+49 silly addNameRange     '2.5.7',
+49 silly addNameRange     '2.5.8',
+49 silly addNameRange     '2.5.9',
+49 silly addNameRange     '2.5.10',
+49 silly addNameRange     '2.5.11',
+49 silly addNameRange     '3.0.0',
+49 silly addNameRange     '3.0.1',
+49 silly addNameRange     '3.0.2',
+49 silly addNameRange     '3.0.3',
+49 silly addNameRange     '3.0.4',
+49 silly addNameRange     '3.0.5',
+49 silly addNameRange     '3.0.6',
+49 silly addNameRange     '3.1.0',
+49 silly addNameRange     '3.1.1',
+49 silly addNameRange     '3.1.2',
+49 silly addNameRange     '3.2.0',
+49 silly addNameRange     '3.2.1',
+49 silly addNameRange     '3.2.2',
+49 silly addNameRange     '3.2.3',
+49 silly addNameRange     '3.2.4',
+49 silly addNameRange     '3.2.5',
+49 silly addNameRange     '3.2.6',
+49 silly addNameRange     '3.3.0',
+49 silly addNameRange     '3.3.1',
+49 silly addNameRange     '3.3.2',
+49 silly addNameRange     '3.3.3',
+49 silly addNameRange     '3.3.4',
+49 silly addNameRange     '1.0.0-beta',
+49 silly addNameRange     '1.0.0-beta2',
+49 silly addNameRange     '1.0.0-rc',
+49 silly addNameRange     '1.0.0-rc2',
+49 silly addNameRange     '1.0.0-rc3',
+49 silly addNameRange     '1.0.0-rc4',
+49 silly addNameRange     '2.0.0-beta',
+49 silly addNameRange     '2.0.0-beta2',
+49 silly addNameRange     '2.0.0-beta3',
+49 silly addNameRange     '2.0.0-rc',
+49 silly addNameRange     '2.0.0-rc2',
+49 silly addNameRange     '2.0.0-rc3',
+49 silly addNameRange     '3.0.0-alpha1',
+49 silly addNameRange     '3.0.0-alpha2',
+49 silly addNameRange     '3.0.0-alpha3',
+49 silly addNameRange     '3.0.0-alpha4',
+49 silly addNameRange     '3.0.0-alpha5',
+49 silly addNameRange     '3.0.0-beta1',
+49 silly addNameRange     '3.0.0-beta2',
+49 silly addNameRange     '3.0.0-beta3',
+49 silly addNameRange     '3.0.0-beta4',
+49 silly addNameRange     '3.0.0-beta6',
+49 silly addNameRange     '3.0.0-beta7',
+49 silly addNameRange     '3.0.0-rc1',
+49 silly addNameRange     '3.0.0-rc2',
+49 silly addNameRange     '3.0.0-rc3',
+49 silly addNameRange     '3.0.0-rc4',
+49 silly addNameRange     '3.0.0-rc5' ] ]
+50 verbose addNamed [ 'express', '2.5.11' ]
+51 verbose addNamed [ '2.5.11', '2.5.11' ]
+52 silly lockFile 631042f2-express-2-5-11 express@2.5.11
+53 verbose lock express@2.5.11 /home/ubuntu/.npm/631042f2-express-2-5-11.lock
+54 silly lockFile ba242734-s-org-express-express-2-5-11-tgz https://registry.npmjs.org/express/-/express-2.5.11.tgz
+55 verbose lock https://registry.npmjs.org/express/-/express-2.5.11.tgz /home/ubuntu/.npm/ba242734-s-org-express-express-2-5-11-tgz.lock
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-2.5.11.tgz',
+56 verbose addRemoteTarball   '4ce8ea1f3635e69e49f0ebb497b6a4b0a51ce6f0' ]
+57 info retry fetch attempt 1 at 10:15:18
+58 verbose fetch to= /home/ubuntu/tmp/npm-8580/1375697718455-0.4396217798348516/tmp.tgz
+59 http GET https://registry.npmjs.org/express/-/express-2.5.11.tgz
+60 http 500 https://registry.npmjs.org/express/-/express-2.5.11.tgz
+61 error fetch failed https://registry.npmjs.org/express/-/express-2.5.11.tgz
+62 info retry will retry, error on last attempt: Error: 500 Internal Server Error
+63 info retry fetch attempt 2 at 10:15:29
+64 verbose fetch to= /home/ubuntu/tmp/npm-8580/1375697718455-0.4396217798348516/tmp.tgz
+65 http GET https://registry.npmjs.org/express/-/express-2.5.11.tgz
+66 http 500 https://registry.npmjs.org/express/-/express-2.5.11.tgz
+67 error fetch failed https://registry.npmjs.org/express/-/express-2.5.11.tgz
+68 info retry will retry, error on last attempt: Error: 500 Internal Server Error
+69 info retry fetch attempt 3 at 10:16:30
+70 verbose fetch to= /home/ubuntu/tmp/npm-8580/1375697718455-0.4396217798348516/tmp.tgz
+71 http GET https://registry.npmjs.org/express/-/express-2.5.11.tgz
+72 http 500 https://registry.npmjs.org/express/-/express-2.5.11.tgz
+73 error fetch failed https://registry.npmjs.org/express/-/express-2.5.11.tgz
+74 silly lockFile ba242734-s-org-express-express-2-5-11-tgz https://registry.npmjs.org/express/-/express-2.5.11.tgz
+75 silly lockFile ba242734-s-org-express-express-2-5-11-tgz https://registry.npmjs.org/express/-/express-2.5.11.tgz
+76 silly lockFile 631042f2-express-2-5-11 express@2.5.11
+77 silly lockFile 631042f2-express-2-5-11 express@2.5.11
+78 silly lockFile 38bf5a2e-express-2-5-x express@2.5.x
+79 silly lockFile 38bf5a2e-express-2-5-x express@2.5.x
+80 error Error: 500 Internal Server Error
+80 error     at WriteStream.<anonymous> (/usr/lib/node_modules/npm/lib/utils/fetch.js:57:12)
+80 error     at WriteStream.EventEmitter.emit (events.js:117:20)
+80 error     at fs.js:1596:14
+80 error     at Object.oncomplete (fs.js:107:15)
+81 error If you need help, you may report this log at:
+81 error     <http://github.com/isaacs/npm/issues>
+81 error or email it to:
+81 error     <npm-@googlegroups.com>
+82 error System Linux 3.2.0-40-virtual
+83 error command "/usr/bin/node" "/usr/bin/npm" "install"
+84 error cwd /home/ubuntu/bitstarter
+85 error node -v v0.10.12
+86 error npm -v 1.2.32
+87 verbose exit [ 1, true ]
